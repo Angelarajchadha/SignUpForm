@@ -1,4 +1,4 @@
-# web security EXPERIMENT 1
+# Sign Up Form
 
 This form contains the following constraints to ensure the safety of the users:
 - Setup Captcha for the Forms
