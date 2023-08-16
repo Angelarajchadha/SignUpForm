@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background:linear-gradient(135deg, #e85ca2, #a12568);;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            
+        }
+
+        #mc_embed_shell {
+          width: 80%; /* Adjust the width as needed */
+            max-width: 600px;/* Increased width */
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 25px;
+            box-shadow: 0px 4px 10px rgba(212, 49, 49, 0.1);
+            animation: fadeInUp 0.5s ease-out;
+            transition: background-color 0.3s ease;
+        }
+        .mc-field-group {
+            margin-bottom: 15px;
+        }
+        label {
+            color: #ae0b0b;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        h2 {
+            color: #e63636;
+            text-align: center;
+            margin-bottom: 20px;
+            
+        }
+
+        .indicates-required {
+            font-size: 14px;
+            color: #777;
+            margin-bottom: 15px;
+        }
+
+        input[type="email"],
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #cd4444;
+            border-radius: 4px;
+            font-size: 14px;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="email"]:focus,
+        input[type="text"]:focus {
+            background-color: #dcb9ea;
+        }
+
+        .button {
+            background-color: #00ff59;
+            color: #ca0000;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            display: block;
+            width: 100%;
+            text-align: center;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background-color: #bae12d;
+            transform: translateY(-2px);
+        }
+
+        .refferal_badge {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Hidden bot field */
+        .mc-field-group[style*="display:none"] {
+            display: none !important;
+        }
+
+        p {
+            text-align: center;
+            font-size: 12px;
+            color: #a72525;
+            margin-top: 20px;
+        }
+
+        .optionalParent {
+            text-align: center;
+        }
+
+        .optionalParent img {
+            width: 220px;
+            height: 40px;
+        }
+        .banner {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .banner img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+        <script>
+          function setFormAction() {
+              var form = document.getElementById('mc-embedded-subscribe-form');
+              form.action = "https://outlook.com";//hide target req
+          }
+      </script>
+    <script src="https://www.google.com/recaptcha/enterprise.js?render=6LdaNKonAAAAAImoXA-90kwiDSwqHq_zYXWJ4_EW"></script>
+</head>
+  <body onload="recordEndTime()">
+    <script>
+        var startTime = new Date().getTime();
+
+        function recordEndTime() {
+            var endTime = new Date().getTime();
+            var timeTaken = endTime - startTime;
+            console.log('Page load time: ' + timeTaken + 'ms');
+            document.getElementById('timingDisplay').innerText = 'Page load time: ' + timeTaken + 'ms';
+        }
+    </script>
+<div id="mc_embed_shell">
+  <div class="banner">
+    <img src="a1.jpg" alt="Banner Image">
+</div>
+    <div id="mc_embed_signup">
+        <form action="https://amrita.us21.list-manage.com/subscribe/post?u=efc70aad7dfe7183741c4e820&amp;id=da75e97163&amp;f_id=00702de7f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self" novalidate="">
+            <div id="mc_embed_signup_scroll">
+                <h2>Sign Up Form</h2>
+                <div class="mc-field-group">
+                    <label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label>
+                    <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value="">
+                </div>
+                <div class="mc-field-group">
+                    <label for="mce-FNAME">Full Name </label>
+                    <input type="text" name="FNAME" class="text" id="mce-FNAME" value="">
+                </div>
+                <div class="mc-field-group">
+                    <label for="mce-LNAME">Address </label>
+                    <input type="text" name="LNAME" class="text" id="mce-LNAME" value="">
+                </div>
+                <div class="mc-field-group">
+                    <label for="mce-MMERGE3">What is your favorite Singer </label>
+                    <input type="text" name="MMERGE3" class="text" id="mce-MMERGE3" value="">
+                </div>
+                <div id="mce-responses" class="clear foot">
+                    <div class="response" id="mce-error-response" style="display: none;"></div>
+                    <div class="response" id="mce-success-response" style="display: none;"></div>
+                </div>
+                <div aria-hidden="true" style="position: absolute; left: -5000px;">
+                    <input type="text" name="b_efc70aad7dfe7183741c4e820_da75e97163" tabindex="-1" value="">
+                </div>
+                    <!-- Add the honeypot field -->
+    <div style="display:none;">
+      <label for="honeypot">Do not fill this field:</label>
+      <input type="text" id="honeypot" name="honeypot">
+  </div>
+              <center>  <div class="optionalParent">
+                   <div class="clear foot">
+                        <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Submit" style="background-color: #d8197c;">
+                        <p style="text-align: center; font-size: 15px; margin-top: 20px;">Done by Angela-CH.EN.U4CYS20088</p>
+                        <p id="timingDisplay"></p>
+                    </div>
+                </div>
+            </div></center>
+        </form>
+    </div>
+    <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+
+</div>
+<script type="text/javascript">
+  document.addEventListener('DOMContentLoaded', function () {
+  var inputs = document.querySelectorAll('input');
+  inputs.forEach(function(input) {
+      input.addEventListener('paste', function(e) {
+          e.preventDefault();
+      });
+      input.addEventListener('copy', function(e) {
+          e.preventDefault();
+      });
+  });
+});
+</script>
+</body>
+</html>
